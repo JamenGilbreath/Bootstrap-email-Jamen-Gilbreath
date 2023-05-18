@@ -1,0 +1,13 @@
+{
+    "configurations": [
+    {
+        "name": "Launch msedge",
+        "port": 8080,
+        "request": "launch",
+        "type": "msedge",
+        "file": "C:\\Users\\Admin\\Documents\\GitHub\\bootStrapEmail\\bootstrap_responsive.html"
+    }
+    ]
+
+}
+
