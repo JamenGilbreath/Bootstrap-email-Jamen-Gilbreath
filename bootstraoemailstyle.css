@@ -2,7 +2,7 @@
 .nav {
   display: flex;
   flex-direction: row;
-
+  float:left;
   border: 3px;
   border-color: rgba(73, 108, 185, 0.932);
   border-style: solid;
@@ -36,6 +36,7 @@ h3 {
   align-self: center;
 
 }
+
 /* user icon btn */
 .user-icon-btn {
   display: flex;
@@ -49,8 +50,8 @@ h3 {
 
 /* button navigation bar class */
 .nav-btn {
-background-color: rgba(161, 193, 230, 0.527);
-  display: flex;
+  background-color: rgba(161, 193, 230, 0);
+  display: block;
   width: 65px;
   height: 65px;
 
@@ -65,11 +66,16 @@ background-color: rgba(161, 193, 230, 0.527);
 
 .container {
   background-image: url(https://w.wallhaven.cc/full/1p/wallhaven-1pd1o9.jpg);
-  
-  height:100vh;
-  width:100vw;
+
+  height: 100vh;
+  width: 100vw;
 }
 
 .email-table {
   background-color: rgba(87, 150, 231, 0.575);
+  float:right;
+}
+
+.email-table:active {
+  color: rgb(73, 126, 187)
 }
