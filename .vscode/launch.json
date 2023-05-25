@@ -5,7 +5,7 @@
         "port": 8080,
         "request": "launch",
         "type": "msedge",
-        "file": "D:\\bootStrapEmail\\bootstrap_responsive.html"
+        "file": "D:\\bootStrapEmail\\index.html"
     }
     ]
 
